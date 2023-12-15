@@ -1,0 +1,110 @@
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 150vh;
+    background-color: #37474f;
+}
+
+.container h2 {
+    margin: 30px 0px 0px 220px;
+}
+
+.container {
+    width: 40%;
+    min-width: 430px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: #546e7a;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+    #newtask input {
+        width: 75%;
+        height: 21px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 15px;
+        border: 2px solid grey;
+        padding: 12px;
+        color: #111111;
+        font-weight: 500;
+        position: relative;
+        border-radius: 5px;
+    }
+
+        #newtask input:focus {
+            outline: none;
+            border-color: #1f3b4d;
+        }
+
+    #newtask button {
+        position: relative;
+        float: right;
+        width: 20%;
+        height: 45px;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #b0bec5;
+        border: 2px solid black ;
+        color: #263238;
+        cursor: pointer;
+        outline: none;
+    }
+
+#tasks {
+    background-color:	#546e7a;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 93%;
+    position: relative;
+}
+
+.task {
+    background-color: #cfd8dc;
+    height: 41px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    font-size: 15px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #37474f;
+    cursor: pointer;
+}
+
+    .task span {
+        font-family: 'Poppins',sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .task button {
+        background-color: #b3e5fc;
+        color: #263238;
+        height: 100%;
+        width: 100px;
+        border-radius: 5px;
+        border: 2px solid #1f3b4d;
+        cursor: pointer;
+        outline: none;
+    }
+
+.completed {
+    text-decoration: line-through;
+}
