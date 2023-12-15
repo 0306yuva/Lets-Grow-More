@@ -10,7 +10,7 @@ This Project involves in creating To-Do list using HTML,CSS,and Javascript.
 
 # Usage
 1.Clone the repository
-git clone https://github.com/0306yuva/todo-list.git
+git clone https://github.com/0306yuva/Lets-Grow-More
 2.Open index.html in your preferred web browser.
 
 
