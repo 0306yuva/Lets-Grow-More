@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.title{
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 500px;
+    width: 340px;
+    border-radius: 32px;
+    background: grey;
+    box-shadow: 0px 12px 20px 8px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    border: 3px solid black;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card table {
+    height: 70%;
+    width: 100%;
+}
+#res{
+    box-shadow: 0px 0px 7px 2px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    background: rgb(210, 206, 255);
+    height: 70px;
+    width: 229px;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 26px;
+    overflow-x: auto;
+}
+
+.card table td button {
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 2px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    background: rgb(210, 206, 255);
+    border: 2px solid black;
+    outline: none;
+    font-size: 29px;
+    border-radius: 12px;
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}
+
+.card table td button:hover{
+    background: rgba(255, 255, 255, 0.867);
+    color: rgb(207, 215, 231);
+}
+
+.head{
+    font-size: 48px;
+    color:whitesmoke;
+    margin-bottom: 12px;
+}
